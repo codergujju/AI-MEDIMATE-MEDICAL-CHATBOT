@@ -1,7 +1,5 @@
-# 🤖 AI-MEDIMATE-MEDICAL-CHATBOT
-
-AI MEDIMATE is an intelligent medical chatbot built using Streamlit, NLP, Semantic Search, and Large Language Models (LLMs).
-It provides accurate and user-friendly answers to general medical queries by combining verified NIH medical data with LLM-enhanced responses using a RAG (Retrieval-Augmented Generation) approach.
+#🤖 AI-MEDIMATE-MEDICAL-CHATBOT
+AI MEDIMATE is an intelligent medical chatbot built using Streamlit, NLP, Semantic Search, and Large Language Models (LLMs). It provides accurate and user-friendly answers to general medical queries by combining verified NIH medical data with LLM-enhanced responses using a RAG (Retrieval-Augmented Generation) approach.
 
 📌 Features
 
@@ -57,8 +55,7 @@ Chatbot displays:
 
 🧠 LLM Models Used (via Ollama)
 
-AI MEDIMATE supports multiple local LLMs using Ollama.
-📊 Dataset
+AI MEDIMATE supports multiple local LLMs using Ollama. 📊 Dataset
 
 This project uses the NIH MedQuAD (Medical Question Answering Dataset), a trusted and publicly available medical dataset.
 
@@ -72,16 +69,11 @@ Curated from NIH-trusted medical sources
 
 Covers diseases, drugs, diagnosis, treatments & tests
 
-🔹 Supported Models
-Model Name	Ollama Identifier	Description
-LLaMA 3.2 (13B)	llama3.2:latest	High-quality medical explanations
-Mistral 7B	mistral:latest	Fast and efficient responses
-Falcon 7B	falcon:latest	Lightweight and reliable
+🔹 Supported Models Model Name Ollama Identifier Description LLaMA 3.2 (13B) llama3.2:latest High-quality medical explanations Mistral 7B mistral:latest Fast and efficient responses Falcon 7B falcon:latest Lightweight and reliable
 
 You can switch models easily inside model4.py.
 
-💻 LLM System Requirements
-🔹 Minimum Requirements
+💻 LLM System Requirements 🔹 Minimum Requirements
 
 OS: Windows / Linux / macOS
 
@@ -101,28 +93,21 @@ Storage: 20+ GB free
 
 ⚠ LLaMA 13B models require higher RAM and run slower on low-end systems.
 
-🔧 Ollama Installation & Setup
-1️⃣ Install Ollama
+🔧 Ollama Installation & Setup 1️⃣ Install Ollama
 
 👉 https://ollama.com
 
-2️⃣ Pull a model
-ollama pull llama3.2
-
+2️⃣ Pull a model ollama pull llama3.2
 
 (or)
 
 ollama pull mistral
 
-3️⃣ Verify installation
-ollama list
+3️⃣ Verify installation ollama list
 
-🚀 Run the Application
-Install Python dependencies
-pip install streamlit pandas sentence-transformers scikit-learn ollama
+🚀 Run the Application Install Python dependencies pip install streamlit pandas sentence-transformers scikit-learn ollama
 
-Start the chatbot
-streamlit run App.py
+Start the chatbot streamlit run App.py
 
 🎥 Demo
 
@@ -130,10 +115,8 @@ streamlit run App.py
 
 ⚠️ Disclaimer
 
-This chatbot is intended for educational and informational purposes only.
-It does not replace professional medical advice, diagnosis, or treatment.
+This chatbot is intended for educational and informational purposes only. It does not replace professional medical advice, diagnosis, or treatment.
 
 👨‍💻 Developer
 
-Vishesh Chavda
-Data Scientist | Machine Learning Enthusiast
+Vishesh Chavda Data Scientist | Machine Learning Enthusiast
