@@ -23,6 +23,12 @@ AI MEDIMATE is an intelligent medical chatbot built using Streamlit, NLP, Semant
 
 ⚡ Fast, simple, and interactive interface
 
+▶️ How to Run the Project
+
+2️⃣ Install Dependencies pip install -r requirements.txt
+
+3️⃣ Run the Application streamlit run APP.py
+
 🛠️ Tech Stack
 
 Python
