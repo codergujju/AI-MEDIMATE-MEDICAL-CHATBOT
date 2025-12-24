@@ -39,15 +39,6 @@ Ollama – LLM inference
 
 Pandas – Dataset handling
 
-📂 Project Structure
-AI-MEDIMATE-MEDICAL-CHATBOT/
-│
-├── App.py                 # Streamlit frontend
-├── model4.py              # Hybrid RAG + LLM backend
-├── dataset_QA.csv         # NIH MedQuAD medical dataset
-├── Medichatbot_demo.mp4   # Demo video
-├── README.md              # Documentation
-
 ⚙️ How the System Works (RAG Pipeline)
 
 User enters a medical query
